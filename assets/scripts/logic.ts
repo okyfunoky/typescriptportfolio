@@ -28,3 +28,15 @@ Projects.push(projectTwo);
 Projects.push(projectThree);
 //Projects.push(projectFour);
 
+//display Projects
+function displayProjects(){
+    
+    let projectDiv = $('#projectlist');
+    Projects.forEach(project => {
+        let newProject = $('<img>');
+        newProject.attr("src",project.pictureUrl);
+        newProject.attr("alt",project.pictureAlt);
+        projectDiv.append(newProject);
+    });
+}
+displayProjects();
