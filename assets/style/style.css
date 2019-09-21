@@ -1,3 +1,30 @@
+a {
+    color: white;
+}
 header {
     padding: 150px 0px 100px;
+    background-color: #660000;
+}
+
+img {
+    padding-top: 2em;
+}
+
+section {
+    margin-top: 2em;
+    padding-top: 56px;
+    color: rgba(255,255,255,.5);
+}
+
+.project-card {
+    margin-top: 2em;
+    background-color: #82766e;
+}
+
+body {
+    background-color:#787878;
+}
+
+.navbar {
+    background-color: #82766e;
 }
