@@ -1,4 +1,3 @@
-console.log("Hullo world");
 var Project = /** @class */ (function () {
     function Project(projectName, projectLink, projectPictureUrl, projectDescription, projectPictureAlt) {
         this.name = projectName;
@@ -43,4 +42,5 @@ function displayProjects() {
         projectDiv.append(projectCard);
     });
 }
+$('body').scrollspy({ target: '#mainNav' });
 displayProjects();

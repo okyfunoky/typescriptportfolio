@@ -1,5 +1,3 @@
-console.log("Hullo world");
-
 class Project {
     name: string;
     link: string;
@@ -53,4 +51,7 @@ function displayProjects() {
         projectDiv.append(projectCard);
     });
 }
+
+($('body')as any).scrollspy({ target: '#mainNav' })
 displayProjects();
+
