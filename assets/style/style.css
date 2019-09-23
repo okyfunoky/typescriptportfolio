@@ -1,5 +1,5 @@
 a {
-    color: white;
+    color: #8bd3fb;
 }
 
 body {
@@ -12,7 +12,7 @@ html {
 
 header {
     padding: 150px 0px 100px;
-    background-color: #660000;
+    background-color: #beba46;
 }
 
 img {
@@ -22,18 +22,29 @@ img {
 section {
     margin-top: 2em;
     padding-top: 56px;
-    color: rgba(255,255,255,.5);
+    color: #bcb841;
 }
 
 .project-card {
     margin-top: 2em;
-    background-color: #82766e;
+    background-color:#8bd3fb;;
+    color: #790d0d;
+}
+
+.project-card > a {
+    color: #bcb841;
+    font-size: larger;
 }
 
 body {
-    background-color:#787878;
+    background-color:#790d0d;
+    
 }
 
 .navbar {
-    background-color: #82766e;
+    background-color:#790d0d;
+}
+
+.nav-link {
+    color: #beba46;
 }
