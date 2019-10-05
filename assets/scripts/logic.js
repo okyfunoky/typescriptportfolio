@@ -9,10 +9,10 @@ var Project = /** @class */ (function () {
     return Project;
 }());
 var Projects = [];
-var projectOne = new Project("Marvel Hangman", "https://okyfunoky.github.io/unit-4-game/", "./assets/images/ironman.jpg", "A JavaScript hangman game with a Marvel theme", "Tony Stark: Iron Man");
+var projectOne = new Project("Marvel Hangman", "https://okyfunoky.github.io/wordguessgame/", "./assets/images/ironman.jpg", "A JavaScript hangman game with a Marvel theme", "Tony Stark: Iron Man");
 var projectTwo = new Project("Where in the World is Karma Sandio?", "https://okyfunoky.github.io/whereinseattleiscarmen/", "./assets/images/logo.png", "A map based geography game that totally doesn't violate copyrights.", "Karma Sandio Logo: She wears a big grey hat");
-var projectThree = new Project("Marvel RPG", "https://okyfunoky.github.io/wordguessgame/", "./assets/images/thor.jpg", "Role playing game to determine the strongest Avenger.", "Thor: Strongest Avenger");
-//let projectFour = new Project("Marvel RPG","link","pictureLink","Role playing game to determine the strongest Avenger.");
+var projectThree = new Project("Marvel RPG", "https://okyfunoky.github.io/unit-4-game/", "./assets/images/thor.jpg", "Role playing game to determine the strongest Avenger.", "Thor: Strongest Avenger");
+var projectFour = new Project("Marvel Dating Game", "https://guarded-garden-84279.herokuapp.com", "./assets/images/ironman.jpg", "A simple survey style app.", "Iron Avenger");
 Projects.push(projectOne);
 Projects.push(projectTwo);
 Projects.push(projectThree);
