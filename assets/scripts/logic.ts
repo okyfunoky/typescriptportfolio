@@ -20,11 +20,13 @@ let projectOne = new Project("Marvel Hangman","https://okyfunoky.github.io/wordg
 let projectTwo = new Project("Where in the World is Karma Sandio?","https://okyfunoky.github.io/whereinseattleiscarmen/","./assets/images/logo.png","A map based geography game that totally doesn't violate copyrights.", "Karma Sandio Logo: She wears a big grey hat");
 let projectThree = new Project("Marvel RPG","https://okyfunoky.github.io/unit-4-game/","./assets/images/thor.jpg","Role playing game to determine the strongest Avenger.", "Thor: Strongest Avenger");
 let projectFour = new Project("Marvel Dating Game","https://guarded-garden-84279.herokuapp.com","./assets/images/ironman.jpg","A simple survey style app.","Iron Avenger");
+let projectFive = new Project("Space Cats Trading Game","https://spacecatstrade.herokuapp.com","./assets/images/SpaceCats.PNG","A trading game.","Space Cats play board");
 
 Projects.push(projectOne);
 Projects.push(projectTwo);
 Projects.push(projectThree);
-//Projects.push(projectFour);
+Projects.push(projectFour);
+Projects.push(projectFive);
 
 //display Projects
 function displayProjects() {
